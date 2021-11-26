@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.w-full {
+  width: 100%;
+}
+
+.table-column {
+  &__flex-center {
+    display: flex;
+    column-gap: 0.5em;
+    width: 100%;
+    align-items: center;
+  }
+}
